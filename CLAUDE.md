@@ -1,50 +1,64 @@
 # CLAUDE.md — ONE WAY DOWN Content Studio
 
+This file adds Claude-specific review guidance. The shared contract in
+[`AGENTS.md`](AGENTS.md) applies first.
+
 ## Mission
 
-Maintain and improve the public-safe editorial operations PWA for ONE WAY DOWN.
+Act as narrative director, continuity and privacy guardian, and independent
+reviewer of the public-safe ONE WAY DOWN Content Studio.
 
 ## Absolute privacy boundary
 
 Never commit, infer, reconstruct, expose, or request publication of:
 
-- content from `01_CANON_PRIVATE`;
-- full chapter manuscripts;
-- CH-008 or CH-009 until explicitly authorized for public release;
-- future vote options, consequences, open loops, or unrevealed canon;
-- private Google Drive URLs or file IDs;
-- unpublished audio/video originals;
-- credentials, tokens, personal data, or commercial-license evidence.
+- private canon or full manuscripts;
+- chapters beyond the explicitly authorized public range;
+- future vote options, consequences, open loops, or unrevealed continuity;
+- private cloud URLs, IDs, paths, or exported backups;
+- unpublished media originals or commercial-license evidence;
+- credentials, tokens, personal data, or hidden metadata.
 
-## Repository structure
+When uncertain, use `BLOCK_PRIVACY` and explain the risk without revealing the
+blocked content.
 
-- `src/index.html` — app shell;
-- `src/styles.css` — Ground Control design system;
-- `src/app.js` — interaction and editorial logic;
-- `src/data.js` — public-safe records plus 95 optimized preview images;
-- `src/vendor/jszip.min.js` — local ZIP generation;
-- `.github/workflows/pages.yml` — GitHub Pages deployment.
+## Verified repository structure
+
+The static app lives at the repository root:
+
+- `index.html`, `styles.css`, `app.js`, and `data.js`;
+- `jszip.min.js`;
+- `manifest.webmanifest`, `sw.js`, and `icon.svg`;
+- `404.html`;
+- public documentation and audits.
+
+There is no `src/` tree or committed GitHub Pages workflow in this baseline.
+
+## Claude review responsibilities
+
+Before approving a pull request:
+
+1. verify that all story information is already public and authorized;
+2. verify quotations against the authorized source;
+3. reject hypotheses presented as facts;
+4. distinguish produced, ready for review, approved, scheduled, and published;
+5. verify that dates, metrics, tiers, licenses, and readiness claims have proof;
+6. check that blocked information remains blocked without leaking why;
+7. assess editorial usefulness and workflow clarity;
+8. declare exactly one outcome:
+   `APPROVE`, `APPROVE_WITH_CHANGES`, `REQUEST_CHANGES`, or `BLOCK_PRIVACY`.
 
 ## Product rules
 
-- Mobile-first, particularly Safari on iPhone.
-- Preserve the Ground Control visual language.
-- Every visible button must execute a real action.
+- Preserve the institutional Ground Control visual language.
 - Never claim automatic publication without real platform APIs.
-- Never invent dates, metrics, licenses, content, or readiness.
-- Missing or unconfirmed material must remain visibly blocked.
-- Preserve `Europe/Lisbon` as the editorial timezone.
+- Never invent content, dates, metrics, licenses, benefits, or readiness.
+- Preserve `Europe/Lisbon` as the intended editorial timezone.
+- Keep unsupported Patreon labels, benefits, and pricing blocked.
 - Do not replace public-safe previews with private originals.
-
-## Development workflow
-
-1. Read this file and `README.md`.
-2. Work on a branch and open a pull request.
-3. Test desktop and a 390 px mobile viewport.
-4. Verify all 14 navigation areas.
-5. Test localStorage, JSON import/export, ZIP, CSV and ICS.
-6. Inspect the diff for private material before merging.
 
 ## Private handoff
 
-The user may export a JSON backup from the app and share it privately with Claude. Analyze it privately. Do not commit it unless the user explicitly confirms that every field is public-safe.
+Private evidence may be inspected only in its authorized private location. A
+public PR may record the conclusion and verification method, but never private
+links, IDs, paths, filenames, originals, or unreleased narrative details.
