@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>ONE WAY DOWN — Generic Thumbnail Template — Decision</title>
+  <path d="M560 0H1280V720H700Z" fill="#0A0C0D" fill-opacity=".92"/>
+  <text x="735" y="72" fill="#B9CBD6" font-family="Consolas,monospace" font-size="24">ONE WAY DOWN</text>
+  <rect x="735" y="96" width="220" height="4" fill="#E09A3E"/>
+  <text x="735" y="278" fill="#E09A3E" font-family="Consolas,monospace" font-size="82" font-weight="700">DECISION</text>
+  <text x="735" y="570" fill="#E8E4DC" font-family="Consolas,monospace" font-size="34" font-weight="700">CH-XXX / EPISODE TITLE</text>
+  <text x="1040" y="680" fill="#4A5158" font-family="Consolas,monospace" font-size="15">THUMB-TEMPLATE-003</text>
+</svg>

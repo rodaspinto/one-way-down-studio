@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>ONE WAY DOWN — Generic Thumbnail Template — Depth</title>
+  <path d="M0 0H720L580 720H0Z" fill="#0A0C0D" fill-opacity=".92"/>
+  <text x="58" y="72" fill="#B9CBD6" font-family="Consolas,monospace" font-size="24">ONE WAY DOWN</text>
+  <rect x="58" y="96" width="220" height="4" fill="#E09A3E"/>
+  <text x="58" y="278" fill="#E09A3E" font-family="Consolas,monospace" font-size="88" font-weight="700">DEPTH</text>
+  <text x="58" y="570" fill="#E8E4DC" font-family="Consolas,monospace" font-size="34" font-weight="700">CH-XXX / EPISODE TITLE</text>
+  <text x="1040" y="680" fill="#4A5158" font-family="Consolas,monospace" font-size="15">THUMB-TEMPLATE-001</text>
+</svg>
