@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+  <title>Vandry Program — institutional symbol</title>
+  <rect width="2048" height="2048" fill="#0A0C0D"/>
+  <circle cx="1024" cy="1024" r="664" fill="none" stroke="#B9CBD6" stroke-width="42"/>
+  <path d="M930 280V1768M1118 280V1768" fill="none" stroke="#E8E4DC" stroke-width="34"/>
+  <path d="M710 1024H1338" fill="none" stroke="#4A5158" stroke-width="34"/>
+  <circle cx="1024" cy="1024" r="92" fill="#0A0C0D" stroke="#E8E4DC" stroke-width="34"/>
+  <path d="M1024 1116V1768" fill="none" stroke="#E8E4DC" stroke-width="34"/>
+</svg>
